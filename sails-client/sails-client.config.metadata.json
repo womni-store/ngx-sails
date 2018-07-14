@@ -1,0 +1,1 @@
+[{"__symbolic":"module","version":4,"metadata":{"ISailsClientConfig":{"__symbolic":"class"},"SAILS_CLIENT_CONFIG":{"__symbolic":"new","expression":{"__symbolic":"reference","module":"@angular/core","name":"InjectionToken","line":9,"character":37},"arguments":["sails.client.config"]}}}]

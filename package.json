@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      "ngx-sails@0.5.0",
+      "/home/ubuntu/womni-backoffice"
+    ]
+  ],
+  "_from": "ngx-sails@0.5.0",
+  "_id": "ngx-sails@0.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-qOxiXhBpVa7Qs50po0pb46AqA6llokHJ/51mUOnqfC6QJ9h4XUUZXQRGt4TeHwerV6lL89wUe/Q1/oHM3Z8HHQ==",
+  "_location": "/ngx-sails",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "ngx-sails@0.5.0",
+    "name": "ngx-sails",
+    "escapedName": "ngx-sails",
+    "rawSpec": "0.5.0",
+    "saveSpec": null,
+    "fetchSpec": "0.5.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ngx-sails/-/ngx-sails-0.5.0.tgz",
+  "_spec": "0.5.0",
+  "_where": "/home/ubuntu/womni-backoffice",
+  "author": {
+    "name": "Brandon Van Noy",
+    "email": "brandom.v@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/brandom/ngx-sails/issues"
+  },
+  "dependencies": {
+    "@types/socket.io-client": "^1.4.30",
+    "socket.io-client": "^2.0.3"
+  },
+  "description": "Sails client for Angular (2+)",
+  "homepage": "https://github.com/brandom/ngx-sails#readme",
+  "keywords": [
+    "angular",
+    "sails",
+    "socket",
+    "socket.io"
+  ],
+  "license": "MIT",
+  "main": "bundles/ngx-sails.umd.js",
+  "module": "index.js",
+  "name": "ngx-sails",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0 || ^5.0.0",
+    "rxjs": "^5.1.0",
+    "typescript": "^2.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandom/ngx-sails.git"
+  },
+  "typings": "index.d.ts",
+  "version": "0.5.0"
+}

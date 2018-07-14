@@ -1,0 +1,1 @@
+[{"__symbolic":"module","version":4,"metadata":{},"exports":[{"from":"./sails-client.module"},{"from":"./sails-client.service"},{"from":"./sails-client.config"},{"from":"./sails-request"},{"from":"./sails-response"},{"from":"./interfaces"},{"from":"./enums"}]}]
