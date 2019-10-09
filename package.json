@@ -35,8 +35,8 @@
     "url": "https://github.com/brandom/ngx-sails/issues"
   },
   "dependencies": {
-    "@types/socket.io-client": "^1.4.30",
-    "socket.io-client": "^2.0.3"
+    "@types/socket.io-client": "^1.4.32",
+    "socket.io-client": "^2.3.0"
   },
   "description": "Sails client for Angular (2+)",
   "homepage": "https://github.com/brandom/ngx-sails#readme",
@@ -51,9 +51,9 @@
   "module": "index.js",
   "name": "ngx-sails",
   "peerDependencies": {
-    "@angular/core": "^4.0.0 || ^5.0.0",
-    "rxjs": "^5.1.0",
-    "typescript": "^2.4.0"
+    "@angular/core": "^8.2.10",
+    "rxjs": "^6.5.3",
+    "typescript": "^3.6.4"
   },
   "repository": {
     "type": "git",
