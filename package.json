@@ -35,7 +35,6 @@
     "url": "https://github.com/brandom/ngx-sails/issues"
   },
   "dependencies": {
-    "@types/socket.io-client": "^1.4.36",
     "socket.io-client": "2.4.0"
   },
   "description": "Sails client for Angular (2+)",
