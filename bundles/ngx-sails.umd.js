@@ -1,6 +1,6 @@
 (function (global, factory) {
-	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/common'), require('socket.io-client'), require('rxjs/Observable'), require('rxjs/operators/map'), require('rxjs')) :
-	typeof define === 'function' && define.amd ? define(['exports', '@angular/core', '@angular/common', 'socket.io-client', 'rxjs/Observable', 'rxjs/operators/map', 'rxjs'], factory) :
+	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/common'), require('socket.io-client'), require('rxjs/operators'), require('rxjs')) :
+	typeof define === 'function' && define.amd ? define(['exports', '@angular/core', '@angular/common', 'socket.io-client', 'rxjs/operators', 'rxjs'], factory) :
 	(factory((global.ng = global.ng || {}, global.ng.SailsClient = {}),global.ng.core,global.ng.common,global['node_modules/socket']['io-client/dist/socket'].io.js,global.Rx,global.Rx.operators,global.Rx));
 }(this, (function (exports,core,common,io_,Observable,map,Subject) { 'use strict';
 
