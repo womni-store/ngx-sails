@@ -3,6 +3,7 @@ import { ISailsRequestOpts, ISailsResponse } from './interfaces';
 import { ISailsClientConfig } from './sails-client.config';
 import { Observable } from 'rxjs';
 import { SailsError } from './sails-response';
+import * as ɵngcc0 from '@angular/core';
 export declare class SailsClient {
     private defaultHeaders;
     private uri;
@@ -22,4 +23,8 @@ export declare class SailsClient {
     readonly configuration: ISailsClientConfig;
     private sendRequest(url, method, data?, options?);
     private getConfig(config);
+    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<SailsClient, never>;
+    static ɵprov: ɵngcc0.ɵɵInjectableDeclaration<SailsClient>;
 }
+
+//# sourceMappingURL=sails-client.service.d.ts.map
