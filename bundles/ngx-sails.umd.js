@@ -150,7 +150,6 @@ var SailsClient = /** @class */ (function () {
         return this.sendRequest(url, RequestMethod.PATCH, body, options);
     };
     SailsClient.prototype.on = function (event) {
-        console.log('A2');
         var _this = this;
         var nextFunc;
         return Observable.new Observable(function (obs) {

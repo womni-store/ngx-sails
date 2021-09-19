@@ -49,13 +49,11 @@ var SailsClient = /** @class */ (function () {
     SailsClient.prototype.on = function (event) {
         var _this = this;
         var nextFunc;
-        console.log('A4',event);
         return new Observable(function (obs) {
-            console.log({obs})
-            nextFunc = function (msg) { console.log({msg});return obs.next(msg); };
+            nextFunc = function (msg) {return obs.next(msg); };
             _this.io.on(event, nextFunc);
 
-            return function () { console.log({event, nextFunc}); return _this.io.off(event, nextFunc); };
+            return function () { return _this.io.off(event, nextFunc); };
         });
     };
     Object.defineProperty(SailsClient.prototype, "configuration", {
