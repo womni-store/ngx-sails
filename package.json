@@ -51,8 +51,8 @@
   "module": "index.js",
   "name": "ngx-sails",
   "peerDependencies": {
-    "@angular/core": "^12.0.2",
-    "rxjs": "^7.1.0",
+    "@angular/core": "^12.2.6",
+    "rxjs": "^7.3.0",
     "typescript": "4.2.4"
   },
   "repository": {
