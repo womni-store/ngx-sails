@@ -7,7 +7,7 @@ var SailsRequest = /** @class */ (function () {
     SailsRequest.send = function (request, io, errorsSubject) {
         var method = request.method;
         request.headers = lowerCaseHeaders(request.headers);
-        return Observable.create(function (obs) {
+        return new Observable(function (obs) {
             io.emit(method, request, function (rawResponse) {
                 if (rawResponse.statusCode >= 400) {
                     var error = new SailsError(rawResponse, request);

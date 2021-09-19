@@ -78,7 +78,7 @@ var SailsRequest = /** @class */ (function () {
     SailsRequest.send = function (request, io, errorsSubject) {
         var method = request.method;
         request.headers = lowerCaseHeaders(request.headers);
-        return Observable.Observable.create(function (obs) {
+        return Observable.new Observable(function (obs) {
             io.emit(method, request, function (rawResponse) {
                 if (rawResponse.statusCode >= 400) {
                     var error = new SailsError(rawResponse, request);
@@ -152,7 +152,7 @@ var SailsClient = /** @class */ (function () {
     SailsClient.prototype.on = function (event) {
         var _this = this;
         var nextFunc;
-        return Observable.Observable.create(function (obs) {
+        return Observable.new Observable(function (obs) {
             nextFunc = function (msg) { return obs.next(msg); };
             _this.io.on(event, nextFunc);
             return function () { return _this.io.off(event, nextFunc); };
