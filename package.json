@@ -50,11 +50,10 @@
   "module_ivy_ngcc": "__ivy_ngcc__/index.js",
   "module": "index.js",
   "name": "ngx-sails",
-  "peerDependencies": {
-  },
+  "peerDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brandom/ngx-sails.git"
+    "url": "git+https://github.com/womni-store/ngx-sails"
   },
   "typings": "index.d.ts",
   "version": "0.6.0",

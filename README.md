@@ -1,9 +1,4 @@
 # ngx-sails
-
-[![npm version](https://badge.fury.io/js/ngx-sails.svg)](https://badge.fury.io/js/ngx-sails)
-[![Build Status](https://travis-ci.org/brandom/ngx-sails.svg?branch=master)](https://travis-ci.org/brandom/ngx-sails)
-[![Coverage Status](https://coveralls.io/repos/github/brandom/ngx-sails/badge.svg?branch=master&cacheBuster=1)](https://coveralls.io/github/brandom/ngx-sails?branch=master)
-
 A socket client for Angular applications that connect to a Sails socket.io API.
 
 ## Installation
