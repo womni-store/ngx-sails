@@ -1,7 +1,7 @@
 {
   "_args": [
     [
-      "ngx-sails@0.6.0",
+      "ngx-sails@0.7.0",
       "/home/ubuntu/womni-backoffice"
     ]
   ],
@@ -35,7 +35,7 @@
     "url": "https://github.com/brandom/ngx-sails/issues"
   },
   "dependencies": {
-    "socket.io-client": "2.4.0"
+    "socket.io-client": "2.5.0"
   },
   "description": "Sails client for Angular.io",
   "homepage": "https://github.com/brandom/ngx-sails#readme",
@@ -56,7 +56,7 @@
     "url": "git+https://github.com/womni-store/ngx-sails"
   },
   "typings": "index.d.ts",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "__processed_by_ivy_ngcc__": {
     "module": "12.0.2",
     "typings": "12.0.2"
