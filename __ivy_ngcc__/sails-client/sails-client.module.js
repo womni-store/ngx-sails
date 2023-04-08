@@ -28,7 +28,7 @@ var SailsClientModule = /** @class */ (function () {
     SailsClientModule.ctorParameters = function () { return []; };
 SailsClientModule.ɵfac = function SailsClientModule_Factory(t) { return new (t || SailsClientModule)(); };
 SailsClientModule.ɵmod = /*@__PURE__*/ ɵngcc0.ɵɵdefineNgModule({ type: SailsClientModule });
-SailsClientModule.ɵinj = /*@__PURE__*/ ɵngcc0.ɵɵdefineInjector({ imports: [[CommonModule]] });
+SailsClientModule.ɵinj = /*@__PURE__*/ ɵngcc0.ɵɵdefineInjector({ imports: [CommonModule] });
 (function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(SailsClientModule, [{
         type: NgModule,
         args: [{
